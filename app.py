@@ -27,7 +27,7 @@ app = Flask(__name__)
 
 # 2. Configuraciones necesarias
 app.config['SECRET_KEY'] = 'clave_secreta_muy_dificil_123' # ¡Añadido!
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///peluqueria.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('DATABASE_URL', 'sqlite:///demo_peluqueria.db')
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['MAX_CONTENT_LENGTH'] = 20 * 1024 * 1024  # Límite de 20MB
 

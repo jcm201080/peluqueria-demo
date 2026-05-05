@@ -291,7 +291,88 @@
     max-width: 200px;
     display: flex;
 }
+/* =========================================
+   Estilos de Autenticación y Modo Demo
+   ========================================= */
 
+.auth-container {
+    max-width: 400px;
+    margin: 50px auto;
+    color: white;
+}
+
+.auth-link-text {
+    margin-top: 10px;
+}
+
+.link-recovery-container {
+    margin-top: 10px;
+}
+
+.link-recovery {
+    color: #d4a373;
+    text-decoration: none;
+}
+
+.link-recovery:hover {
+    text-decoration: underline;
+}
+
+/* --- Caja de Modo Demo --- */
+.demo-box {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-left: 4px solid #28a745;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.demo-title {
+    color: #28a745;
+    margin-bottom: 15px;
+}
+
+.demo-subtitle {
+    font-size: 0.9em;
+    margin-bottom: 15px;
+    color: #ccc;
+}
+
+.demo-credentials {
+    background-color: rgba(0,0,0,0.2);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.demo-credentials p {
+    margin: 5px 0;
+}
+
+.btn-demo {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-demo:hover {
+    background-color: #218838;
+    transform: translateY(-2px); /* Pequeño efecto de elevación al pasar el ratón */
+}
+
+.demo-footer-text {
+    font-size: 0.75em;
+    color: #aaa;
+    margin-top: 15px;
+    line-height: 1.4;
+}
 /* --- Estilos Generales del Panel --- */
 .welcome-text {
     text-align: center;

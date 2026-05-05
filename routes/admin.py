@@ -441,7 +441,7 @@ def guardar_ajustes():
         "ia_prompt": request.form.get('ia_prompt'),
         "lema": "Tu estilo, nuestra pasión", # Valores que no están en el form aún
         "instagram_user": "jcmwebsolutions_2026",
-        "logo_img": "img/favicon1.jpeg",
+        "logo_img": "img/favicon1.png",
         "logo_texto_img": "img/logo.jpeg"
     }
 

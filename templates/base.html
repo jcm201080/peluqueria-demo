@@ -50,9 +50,9 @@
 
     <header>
         <div class="header-content">
-            {# Condición: Mostrar favicon1.jpeg SOLO si estamos en la ruta 'index' #}
+            {# Condición: Mostrar favicon1.png SOLO si estamos en la ruta 'index' #}
             {% if request.endpoint == 'index' %}
-            <img src="{{ url_for('static', filename='img/favicon1.jpeg') }}" alt="Logo Principal" class="logo">
+            <img src="{{ url_for('static', filename='img/favicon1.png') }}" alt="Logo Principal" class="logo">
             {% endif %}
 
             {# Este logo se mantiene visible en todas las páginas #}

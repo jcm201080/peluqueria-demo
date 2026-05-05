@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 
-{% block title %}Gestión Diaria V2 - Parra-Barber{% endblock %}
+{% block title %}Gestión Diaria V2 - Peluqueria-demo{% endblock %}
 
 {% block contenido %}
 <link rel="stylesheet" href="{{ url_for('static', filename='css/admin.css') }}">
@@ -80,7 +80,7 @@
                             cita.nombre_invitado else 'Cliente') %}
 
                             {% if telefono %}
-                            <a href="https://wa.me/34{{ telefono }}?text=Hola%20{{ nombre_msg | urlencode }},%20te%20escribimos%20de%20Parra-Barber..."
+                            <a href="https://wa.me/34{{ telefono }}?text=Hola%20{{ nombre_msg | urlencode }},%20te%20escribimos%20de%20Peluqueria-demo..."
                                 target="_blank" class="btn-whatsapp" title="Contactar por WhatsApp">
                                 <i class="fab fa-whatsapp" style="color: #25D366; font-size: 1.2rem;"></i>
                             </a>

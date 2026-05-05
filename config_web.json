@@ -1,10 +1,10 @@
 {
-    "nombre_negocio": "Parra-Barber",
+    "nombre_negocio": "Peluquería",
     "lema": "Tu estilo, nuestra pasión",
     "color_principal": "#111111",
     "color_fondo": "#111111",
     "color_footer": "#000000",
-    "instagram_user": "parrabarber",
+    "instagram_user": "jcmwebsolutions_2026",
     "logo_img": "img/logo.jpeg",
     "logo_texto_img": "img/logo.jpeg",
     "ia_prompt": "Eres un experto en peluquería masculina y estilismo..."

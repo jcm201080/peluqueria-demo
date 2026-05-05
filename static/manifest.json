@@ -1,6 +1,6 @@
 {
-  "name": "Parra Barber",
-  "short_name": "ParraBarber",
+  "name": "Peluquería-demo",
+  "short_name": "Peluquería-demo",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#111111",

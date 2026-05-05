@@ -381,7 +381,7 @@ def leer_config():
     except (FileNotFoundError, json.JSONDecodeError):
         # Valores por defecto por si el archivo falla
         return {
-            "nombre_negocio": "Parra-Barber",
+            "nombre_negocio": "Peluqueria-demo",
             "color_principal": "#d4a373",
             "color_fondo": "#111111",
             "ia_prompt": "Eres un experto barbero..."
@@ -440,7 +440,7 @@ def guardar_ajustes():
         "color_footer": "#000000", # Puedes añadir un input para esto también
         "ia_prompt": request.form.get('ia_prompt'),
         "lema": "Tu estilo, nuestra pasión", # Valores que no están en el form aún
-        "instagram_user": "parrabarber",
+        "instagram_user": "jcmwebsolutions_2026",
         "logo_img": "img/favicon1.jpeg",
         "logo_texto_img": "img/logo.jpeg"
     }
@@ -457,12 +457,12 @@ def guardar_ajustes():
 
 # Valores por defecto (Hardcoded para seguridad)
 DEFAULT_CONFIG = {
-    "nombre_negocio": "Parra-Barber",
+    "nombre_negocio": "Peluqueria-demo",
     "lema": "Tu estilo, nuestra pasión",
     "color_principal": "#d4a373",
     "color_fondo": "#111111",
     "color_footer": "#000000",
-    "instagram_user": "parrabarber",
+    "instagram_user": "jcmwebsolutions_2026",
     "logo_img": "img/logo.jpeg",
     "logo_texto_img": "img/logo.jpeg",
     "ia_prompt": "Eres un experto en peluquería masculina y estilismo..."

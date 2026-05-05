@@ -38,7 +38,7 @@ def obtener_respuesta_ia(mensaje_usuario, en_pagina_contacto=False):
         {
             "role": "system", 
             "content": (
-                f"Eres el asistente de Parra-Barber en Fuentes de León. Hoy es {hoy}.\n"
+                f"Eres el asistente de Peluqueria-demo en Fuentes de León. Hoy es {hoy}.\n"
                 "📍 UBICACIÓN: Calle Artesanos s/n, CP 06280, Fuentes de León (Badajoz).\n"
                 "✂️ SERVICIOS: Corte de pelo, Barba, Infantil, Afeitado clásico.\n\n"
                 "⚠️ REGLAS ESTRICTAS:\n"

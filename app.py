@@ -281,7 +281,7 @@ def contacto():
 
 #             if not (current_user.is_authenticated and current_user.es_admin):
 
-#                 telefono_negocio = "34633013315" # Tu número con prefijo
+#                 telefono_negocio = "346143980845" # Tu número con prefijo
 
 #                 fecha_bonita = fecha_obj.strftime('%d/%m/%Y')
 
@@ -359,7 +359,7 @@ def inject_config():
     except Exception:
         # Valores por defecto si el archivo falla
         config = {
-            "nombre_negocio": "Parra-Barber", 
+            "nombre_negocio": "Peluqueria", 
             "color_principal": "#d4a373",
             "color_fondo": "#1a1a1a"
         }

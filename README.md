@@ -38,7 +38,7 @@ Peluqueria/
 └── requirements.txt
 
 
-# 💇‍♂️ Parra-Barber - Sistema de Gestión
+# 💇‍♂️ Peluqueria-demo - Sistema de Gestión
 
 Web profesional para peluquería con reserva de citas, gestión de profesionales y consultoría por IA.
 
@@ -56,7 +56,7 @@ Web profesional para peluquería con reserva de citas, gestión de profesionales
 3. Ejecutar: `python app.py`
 
 ## 🔐 Credenciales Admin por defecto
-- **Teléfono:** 633013315
+- **Teléfono:** 614398084
 - **Password:** admin123
 
 ## 🚀 Despliegue en Producción (VPS)
@@ -77,7 +77,7 @@ Web profesional para peluquería con reserva de citas, gestión de profesionales
 
 Dia-23-Abril
 
-💇‍♂️ Parra-Barber - Sistema de Gestión Inteligente
+💇‍♂️ Peluqueria-demo - Sistema de Gestión Inteligente
 Web profesional para peluquería con reserva de citas avanzada, gestión granular de profesionales y consultoría estética mediante IA.
 
 🚀 Funcionalidades Implementadas
@@ -118,7 +118,7 @@ Inicializar: python setup_db.py (Crea la estructura de horarios independientes y
 Ejecutar: python app.py
 
 🔐 Credenciales Admin (Por defecto)
-Teléfono: 633013315
+Teléfono: 614398084
 
 Password: admin123
 

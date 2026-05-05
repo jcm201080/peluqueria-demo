@@ -4,10 +4,10 @@
 <section class="contacto">
     <div class="direccion">
         <h2>Contacto y Reservas</h2>
-        <p><strong>José Ángel Castaño Lozano</strong></p>
-        <p>Fuentes de León (Badajoz)</p>
-        <p>Calle Artesanos s/n, CP 06280</p>
-        <p>📞 <a href="tel:+34633013315" class="tlfno">633 013 315</a></p>
+        <p><strong>Jesús Castaño Martín</strong></p>
+        <p>Sevilla</p>
+        <p>CP 41008</p>
+        <p>📞 <a href="tel:+34614398084" class="tlfno">614 39 80 84</a></p>
 
         <hr>
         {% if proximas_citas %}
@@ -44,7 +44,7 @@
             <h3>🔎 Mis Reservas</h3>
             <form action="{{ url_for('citas.buscar_cita') }}" method="POST" class="form-inline">
                 <div class="form-group-inline">
-                    <input type="tel" name="telefono_buscar" placeholder="Tu teléfono (ej: 633013315)"
+                    <input type="tel" name="telefono_buscar" placeholder="Tu teléfono (ej: 614398084)"
                         pattern="[6789][0-9]{8}" value="{{ telefono_buscado if telefono_buscado else '' }}" required>
                     <button type="submit" class="btn-buscar">Buscar</button>
                 </div>
@@ -109,7 +109,7 @@
                 </div>
                 <div class="form-group">
                     <label>Teléfono de contacto:</label>
-                    <input type="tel" name="telefono" placeholder="Ej: 633013315" pattern="[6789][0-9]{8}"
+                    <input type="tel" name="telefono" placeholder="Ej: 614398084" pattern="[6789][0-9]{8}"
                         title="El número debe empezar por 6, 7 o 9 y tener 9 dígitos en total." required>
                     <small style="color: #888; display: block; margin-top: 5px;">
                         * Solo números, sin espacios ni guiones.

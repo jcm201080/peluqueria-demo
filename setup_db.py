@@ -37,7 +37,7 @@ def setup_inicial():
         db.session.add_all(servicios_base)
 
         # 3. Admin
-        telf_admin = '633013315'
+        telf_admin = '614398084'
         hashed_pw = bcrypt.generate_password_hash('admin123').decode('utf-8')
         admin = Usuario(nombre='Admin', telefono=telf_admin, password=hashed_pw, es_admin=True)
         db.session.add(admin)
